@@ -10136,10 +10136,11 @@ nav ul li a:hover {
     display: none; }
   a.dropdown-item {
     width: auto; }
-  .mobile-position {
-    position: absolute;
-    right: 40px;
-    top: 13px; }
+ .mobile-position {
+      position: absolute;
+      right: 40px;
+      top: 13px;
+    margin-top: 1.5em; }
   .navbar .navbar-brand img {
     max-width: 140px; }
   .navbar-toggler {
@@ -11726,3 +11727,18 @@ div#small-dialog iframe {
   opacity: 0; }
 
 /*# sourceMappingURL=style-starter.css.map */
+.shadow {
+  position:absolute;
+  max-width:45%;
+  max-height:45%;
+  top:50%;
+  left:50%;
+  overflow:visible;
+}
+.logo1 {
+  position:relative;
+  max-width:100%;
+  max-height:100%;
+  margin-top:-50%;
+  margin-left:-50%;
+}
